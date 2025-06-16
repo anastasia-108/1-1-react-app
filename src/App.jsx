@@ -1,9 +1,12 @@
+//декларативный
 import logo from './assets/logo.svg';
 import './App.css';
 
+//императивный
 export const App = () => {
 	const year = new Date().getFullYear();
 	return (
+		//декларативный
 		<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
@@ -23,5 +26,3 @@ export const App = () => {
 		</div>
 	);
 };
-
-export default App;
